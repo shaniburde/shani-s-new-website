@@ -12,11 +12,12 @@ h1 {
     text-decoration-style: wavy;
     text-decoration-color: rgb(99, 32, 32);
     text-decoration-thickness: 2px;
+
 }
 
 h4 {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     font-style: italic;
     color:rgb(168, 85, 85)
 }
@@ -30,6 +31,53 @@ h4 {
     background-color: rgb(99, 32, 32);
  }
 
- a {
-     color:rgb(231, 139, 139);
+ a:-webkit-any-link {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: underline rgb(217, 171, 221);
+    text-decoration-style: dotted;
+}
+
+#spotify-link {
+    color:rgb(94, 48, 48);
+    background-color: rgb(255, 230, 197);
  }
+
+img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: optimizeQuality;
+    margin: 20px;
+}
+
+.matcha {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: optimizeQuality;
+    margin: 20pxpx;
+}
+
+h3 {
+    padding-top: 15pt;
+}
+h2 {
+    font-size: 30px;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(99, 32, 32);
+}
+
+#insta-link {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 15pt;
+    text-shadow: inherit;
+    text-shadow: initial;
+    text-shadow: revert;
+    text-shadow: unset;
+    text-shadow: 1px 1px 2px rgb(179, 88, 88), 0 0 1em rgb(55, 55, 100), 0 0 0.2em rgb(72, 72, 119);
+}
+
+#spotify {
+    padding-bottom: 15pt;
+}
