@@ -5,13 +5,17 @@ body {
     font-family:'Courier New', Courier, monospace
 }
 
-h1 {
+h1 , #header {
     font-size: 60px;
-    text-shadow: white;
     text-decoration-line: underline;
     text-decoration-style: wavy;
     text-decoration-color: rgb(99, 32, 32);
     text-decoration-thickness: 2px;
+    text-shadow: inherit;
+    text-shadow: initial;
+    text-shadow: revert;
+    text-shadow: unset; 
+    text-shadow: 3px 3px #e06b9c94;
 }
 
 h4 {
@@ -20,14 +24,13 @@ h4 {
     font-style: italic;
     color:rgb(168, 85, 85)
 }
-.banner {
-    font-size: 20px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+#page-footer {
+    padding: 5pt;
+    font-size: 15px;
+    position:initial;
     color:rgb(255, 198, 198);
     background-color: rgb(99, 32, 32);
+   
  }
 
  a:-webkit-any-link {
@@ -101,4 +104,18 @@ h2 {
 
 #matcha-desc {
     padding-top: 0pt;
+}
+
+a:link, a:visited {
+    color: #da9db6;
+    text-decoration: underline;
+    text-shadow: inherit;
+    text-shadow: initial;
+    text-shadow: revert;
+    text-shadow: unset;
+    text-shadow: 1px 1px 2px rgb(105, 31, 31), 0 0 1em rgb(147, 147, 245), 0 0 0.2em rgb(208, 208, 255);
+}
+a {
+    color: #c8b9fc;
+    text-decoration: underline;
 }
