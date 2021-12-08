@@ -5,7 +5,12 @@ body {
     font-family:'Courier New', Courier, monospace
 }
 
-h1 , #header {
+header , #header {
+    background-color:rgb(255, 235, 235);
+    background-image: url();
+    position: relative;
+    -webkit-transition: box-shadow 250ms;
+    transition: box-shadow 250ms;
     font-size: 60px;
     text-decoration-line: underline;
     text-decoration-style: wavy;
@@ -52,6 +57,9 @@ img {
     image-rendering: crisp-edges;
     image-rendering: optimizeQuality;
     margin: 20px;
+    border-image-width: 30ch;
+    border-style: double;
+    border: gray;
 }
 
 h3 {
@@ -118,4 +126,8 @@ a:link, a:visited {
 a:hover {
     color: #d1c6f8;
     text-decoration: underline;
+}
+
+div.input {
+    margin-bottom: 20px;
 }
